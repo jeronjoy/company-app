@@ -1,0 +1,47 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:paddingLeft="78dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="50dp" />
+
+
+    <EditText
+        android:hint="USERNAME"
+        android:textSize="30dp"
+        android:id="@+id/uname"
+        android:background="#FFFFFF"
+      android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="password"
+        android:textSize="30dp"
+        android:inputType="numberPassword"
+        android:id="@+id/pass"
+        android:background="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:text="LOG IN"
+        android:background="#E0E0E0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
